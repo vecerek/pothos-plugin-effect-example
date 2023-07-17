@@ -1,0 +1,18 @@
+{
+  "name": "pothos-plugin-effect-example",
+  "packageManager": "yarn@3.6.1",
+  "private": true,
+  "scripts": {
+    "g:tsx": "cd $INIT_CWD && tsx",
+    "g:typecheck": "cd $INIT_CWD && tsc --noEmit",
+    "g:dev": "cd $INIT_CWD && tsx watch"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}

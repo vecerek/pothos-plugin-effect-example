@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "incremental": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext"
+  }
+}
